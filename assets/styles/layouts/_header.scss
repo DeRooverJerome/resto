@@ -33,6 +33,11 @@ header {
 
       li {
         cursor: pointer;
+        a {
+          &:hover {
+            color: $color1;
+          }
+        }
       }
     }
 

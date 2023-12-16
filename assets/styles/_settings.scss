@@ -35,6 +35,7 @@ $color1: rgb(166, 114, 69);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 li {
@@ -45,4 +46,9 @@ body {
   text-align: center;
   font-family: $font3;
   background: $black;
+}
+
+a {
+  text-decoration: none;
+  color: $white;
 }

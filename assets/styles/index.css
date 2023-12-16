@@ -16,6 +16,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 li {
@@ -26,6 +27,11 @@ body {
   text-align: center;
   font-family: Roboto, serif;
   background: #21201e;
+}
+
+a {
+  text-decoration: none;
+  color: #eee;
 }
 
 header {
@@ -74,6 +80,9 @@ header nav ul {
 }
 header nav ul li {
   cursor: pointer;
+}
+header nav ul li a:hover {
+  color: rgb(166, 114, 69);
 }
 header nav .nav-icons {
   display: -webkit-box;
@@ -508,6 +517,10 @@ header .header-text div h6 {
 .section4 .events-container .event-grid .address h5 {
   letter-spacing: 2px;
   margin-top: 25px;
+  cursor: pointer;
+}
+.section4 .events-container .event-grid .address h5:hover {
+  color: rgb(166, 114, 69);
 }
 .section4 .events-container .event-grid .event-left {
   display: grid;
